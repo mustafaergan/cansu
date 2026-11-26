@@ -266,22 +266,6 @@
     <div class="summary mono" id="summary"></div>
   </section>
 
-  <!-- Metrikler -->
-  <section class="card" aria-labelledby="t3">
-    <div class="kicker">Hasar tespit raporu</div>
-    <h2 id="t3">Ayrılığın ekibe etkisi (resmi olmayan rakamlar)</h2>
-    <div class="stats">
-      <div class="stat"><div class="n mono" id="bugs">0</div><div class="l">Yakalanan bug (sayaç taştı)</div></div>
-      <div class="stat"><div class="n mono">%100</div><div class="l">Kurtarılan release oranı</div></div>
-      <div class="stat"><div class="n mono">0</div><div class="l">Kabul edilen "bende çalışıyor" bahanesi</div></div>
-      <div class="stat">
-        <div class="n mono" id="moodN">%100</div>
-        <div class="l">Ekip moral seviyesi</div>
-        <div class="mood"><i></i></div>
-      </div>
-    </div>
-  </section>
-
   <!-- Karşı teklif -->
   <section class="card" aria-labelledby="t4">
     <div class="kicker">Ekip içi · Acil durum paketi</div>
@@ -308,13 +292,6 @@
     </div>
     <div class="hint" id="hint">&nbsp;</div>
     <div class="result" id="result"></div>
-  </section>
-
-  <!-- Veda -->
-  <section class="card farewell">
-    <div class="kicker">Ciddi kısım (kısa tutacağız, söz)</div>
-    <h2>Teşekkürler Cansu</h2>
-    <p class="sig">Seni çok özleyecek ekibin</p>
   </section>
 
 </main>
@@ -403,22 +380,6 @@
       setTimeout(next, 550);
     })();
   });
-
-  // ---- Metrik sayaçları ----
-  var bugsEl = document.getElementById('bugs');
-  var b = 0;
-  var bt = setInterval(function () {
-    b += Math.ceil(Math.random() * 97);
-    if (b >= 9999) { bugsEl.textContent = '9999+'; clearInterval(bt); return; }
-    bugsEl.textContent = b;
-  }, 40);
-  var moodEl = document.getElementById('moodN');
-  var m = 100;
-  var mt = setInterval(function () {
-    m -= 2;
-    if (m <= 12) { m = 12; clearInterval(mt); }
-    moodEl.textContent = '%' + m;
-  }, 90);
 
   // ---- Karar ----
   var arena = document.getElementById('arena');
