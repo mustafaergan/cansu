@@ -58,7 +58,7 @@
 
   /* Üst bant */
   .topbar {
-    background: var(--brand);
+    background: #c8102e;
     color: #fff;
     font-size: 13px;
     letter-spacing: .02em;
@@ -204,7 +204,7 @@
 
 <div class="topbar">
   <div class="wrap">
-    <span>📣 Kurumsal İletişim Duyurusu · Gizlilik: <b>Herkese Açık Duygusal</b></span>
+    <span>📣 Kurumsal İletişim Duyurusu · Gizlilik: <b>Herkese Açık</b></span>
     <span class="mono"><span class="blink">●</span> CANLI · Ekip moral izleme sistemi</span>
   </div>
 </div>
@@ -213,7 +213,7 @@
 
   <header class="hero">
     <div class="stamp">ONAYLANMADI</div>
-    <h1>Gitme<span class="name">CANSU ŞAHİN NAMLI</span></h1>
+    <h1><span class="name">CANSU ŞAHİN NAMLI</span></h1>
     <p class="lead">Ayrılık talebiniz sistemimize ulaşmıştır. Talep, tüm ekip tarafından incelenmiş ve
       <b>oy birliğiyle reddedilmiştir.</b> İtiraz hakkınız saklıdır ama biz yine de üzüleceğiz.</p>
   </header>
@@ -238,7 +238,7 @@
         <ol>
           <li>Sabah ofise gel.</li>
           <li>Cansu'nun masasına bak.</li>
-          <li>"Bunu bir de şu tarayıcıda denedin mi?" sorusunu bekle.</li>
+          <li>"Bunu bir de MFA'da denedik mi?" sorusunu bekle.</li>
         </ol>
       </div>
       <div class="exp">
@@ -247,7 +247,7 @@
       </div>
       <div class="act">
         <div class="kicker">Gerçekleşen sonuç</div>
-        Masada yalnızca bir kalem, yarım çay ve kapanmamış bir sekme. Bug'lar özgürce dolaşıyor.
+        Masada yarım çay ve kapanmamış bir sekme. Bug'lar özgürce dolaşıyor. Cansu BWS ekibinden bize gülümsüyor.
       </div>
     </div>
   </section>
@@ -269,7 +269,7 @@
   <!-- Metrikler -->
   <section class="card" aria-labelledby="t3">
     <div class="kicker">Hasar tespit raporu</div>
-    <h2 id="t3">Ayrılığın şirkete etkisi (resmi olmayan rakamlar)</h2>
+    <h2 id="t3">Ayrılığın ekibe etkisi (resmi olmayan rakamlar)</h2>
     <div class="stats">
       <div class="stat"><div class="n mono" id="bugs">0</div><div class="l">Yakalanan bug (sayaç taştı)</div></div>
       <div class="stat"><div class="n mono">%100</div><div class="l">Kurtarılan release oranı</div></div>
@@ -284,14 +284,14 @@
 
   <!-- Karşı teklif -->
   <section class="card" aria-labelledby="t4">
-    <div class="kicker">İnsan Kaynakları · Acil durum paketi</div>
+    <div class="kicker">Ekip içi · Acil durum paketi</div>
     <h2 id="t4">Karşı teklifimiz (yönetim henüz haberdar değil)</h2>
     <div class="offers">
       <div class="offer"><div class="e">🚫</div><h3>Cuma deploy yasağı</h3><p>Kalıcı, anayasal, değiştirilemez madde olarak.</p></div>
-      <div class="offer"><div class="e">🍫</div><h3>Bug başına bir çikolata</h3><p>Critical'lar için kutu. Blocker'lar için fabrika.</p></div>
+      <div class="offer"><div class="e">☕</div><h3>Bug başına bir kahve</h3><p>Critical'lar için termos. Blocker'lar için kahve makinesi.</p></div>
       <div class="offer"><div class="e">🙅</div><h3>"Bende çalışıyor" cezası</h3><p>Söyleyen developer bir hafta boyunca çay demler.</p></div>
-      <div class="offer"><div class="e">🏆</div><h3>Yeni unvan</h3><p>Baş Bug Avcısı ve Kalitenin Son Kalesi.</p></div>
-      <div class="offer"><div class="e">☕</div><h3>Sınırsız çay</h3><p>Bardak hiç boş kalmayacak. SLA garantili.</p></div>
+      <div class="offer"><div class="e">🎖️</div><h3>Yeni unvan</h3><p>Orgeneral Testçi, Korgeneral-i Regresyon ve Bug Cephesi Başkomutanı.</p></div>
+      <div class="offer"><div class="e">🫖</div><h3>Sınırsız çay</h3><p>Bardak hiç boş kalmayacak. SLA garantili.</p></div>
       <div class="offer"><div class="e">📋</div><h3>Eksiksiz test senaryosu</h3><p>Developer'lar yazacak. Evet, biz de inanmıyoruz.</p></div>
     </div>
   </section>
@@ -302,7 +302,7 @@
     <h2 id="t5">Cansu, kararını ver:</h2>
     <div class="arena" id="arena">
       <div class="row">
-        <button class="btn-stay" id="stayBtn">💚 Kalıyorum</button>
+        <button class="btn-stay" id="stayBtn">Kalıyorum</button>
         <button class="btn-leave" id="leaveBtn">Yine de gidiyorum</button>
       </div>
     </div>
@@ -313,17 +313,14 @@
   <!-- Veda -->
   <section class="card farewell">
     <div class="kicker">Ciddi kısım (kısa tutacağız, söz)</div>
-    <h2>Teşekkürler Cansu 💙</h2>
-    <p>Yakaladığın her bug, kullanıcının hiç görmediği bir dert oldu. Sorduğun her "peki ya şöyle olursa?"
-      bizi daha iyi bir ekip yaptı.</p>
-    <p>Gittiğin yerde de önce test, sonra deploy olsun. Yolun açık, edge case'lerin az olsun.</p>
-    <p class="sig">— Seni çok özleyecek ekibin</p>
+    <h2>Teşekkürler Cansu</h2>
+    <p class="sig">Seni çok özleyecek ekibin</p>
   </section>
 
 </main>
 
 <footer>
-  Bu sayfa QA sürecinden geçmemiştir. Bulduğun hataları bize değil, yeni şirketine bildir 😄
+  Bu sayfa QA sürecinden geçmemiştir. Bulduğun hataları bize değil, yeni ekibine bildir 😄
 </footer>
 
 <script>
@@ -364,12 +361,9 @@
   // ---- Test koşucu ----
   var tests = [
     ['Cuma 17:45 prod deploy engellenir', 'Engelleyecek kimse kalmadı. Deploy gitti, hafta sonu da gitti.'],
-    ['Developer "bende çalışıyor" der, kabul edilmez', 'Kabul edildi. Kimse "makineni kargola" demedi.'],
     ['Boş form gönderildiğinde hata mesajı gösterilir', 'Form gönderildi. Veritabanına 400 boş satır eklendi.'],
     ['Şifre alanına emoji yazılabilir mi kontrol edilir', 'Bu senaryoyu sadece Cansu düşünebiliyordu.'],
-    ['Safari\'de de denenir', 'Kimse Safari\'nin ne olduğunu hatırlamıyor.'],
-    ['Sprint sonunda "Bunu test ettin mi?" sorulur', 'Soru soruldu. Cevap: "Sanırım?"'],
-    ['Bug raporu adım adım ve ekran görüntülü yazılır', 'Yeni rapor: "bir şey bozuk galiba".'],
+    ['SGD\'de de denenir', 'SGD\'yi hatırlatacak kimse kalmadı.'],
     ['Ekip moral testi', 'Beklenen: %100. Gerçekleşen: %12 ve düşüyor.']
   ];
   var ul = document.getElementById('tests');
@@ -489,15 +483,15 @@
     result.className = 'result show';
     if (stayed) {
       result.innerHTML = '<p class="big">✅ Test geçti! Cansu kalıyor!</p>' +
-        '<p>İnsan Kaynakları\'na bildiriliyor... İstifa dilekçesi geri dönüşüme gönderildi. 🎉</p>' +
+        '<p>Ekip değişikliği iptal ediliyor... BWS\'ye "Üzgünüz, Cansu bizde kalıyor" maili gönderildi. 🎉</p>' +
         '<p style="color:var(--muted);font-size:14px">(Tamam, bunun gerçek olmadığını biliyoruz. Ama denemeye değerdi.)</p>' +
         '<p><button class="btn-leave" id="reset">Gerçekçi ol, sonucu göster</button></p>';
       confetti(220);
       document.getElementById('reset').addEventListener('click', function () { finish(false); });
     } else {
       result.innerHTML = '<p class="big">🥲 Talep onaylandı (çok istemeyerek)</p>' +
-        '<p>Durum: <span class="pill green">RESOLVED</span> · Çözüm: <b>Yeni şirket çok şanslı.</b></p>' +
-        '<p>Unutma: kapımız, Slack kanalımız ve bug listemiz sana her zaman açık.</p>';
+        '<p>Durum: <span class="pill green">RESOLVED</span> · Çözüm: <b>BWS ekibi çok şanslı.</b></p>' +
+        '<p>Unutma: aynı binadayız. Çay molamız ve bug listemiz sana her zaman açık.</p>';
       confetti(180);
     }
     result.scrollIntoView({ behavior: 'smooth', block: 'center' });
